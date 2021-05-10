@@ -6,7 +6,7 @@ function html(id,data) {
     document.getElementById(id).innerHTML = data;
 };
 function appendhtml(id,data) {
-    document.getElementById(id).innerHTML += da100ta;
+    document.getElementById(id).innerHTML += data;
 };
 function random(min,max) {
     return Math.floor(Math.random() * max) + min  
