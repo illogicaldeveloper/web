@@ -29,5 +29,5 @@ var obj = function(id) {
 }
 
 var html = function(id,htmlString) { 
-    document.getElementById(id).innerHTML= htmlString;
+    document.getElementById(id).innerHTML = htmlString;
 }
